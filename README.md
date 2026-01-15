@@ -2,7 +2,7 @@
 
 ![SystemVerilog](https://img.shields.io/badge/Language-SystemVerilog-blue)
 ![UVM](https://img.shields.io/badge/Verification-UVM-green)
-![Status](https://img.shields.io/badge/Status-Passing-brightgreen)
+![Status](https://img.shields.io/badge/Status-Pending-brightgreen)
 
 ## 📌 Project Overview
 This repository contains a synthesizable **Asynchronous FIFO** (First-In, First-Out) memory design and a complete **UVM (Universal Verification Methodology)** testbench.
