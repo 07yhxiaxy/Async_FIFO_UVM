@@ -1,0 +1,39 @@
+async_fifo_uvm/
+├── README.md
+├── folder_structure.txt
+├── docs/
+├── sim/
+├── scripts/
+│   └── Makefile
+├── rtl/
+│   ├── async_fifo.sv
+│   ├── fifomem.sv
+│   ├── rptr_empty.sv
+│   └── wptr_full.sv
+└── dv/
+    ├── tb_top/
+    │   ├── fifo_if.sv
+    │   └── tb_top.sv
+    ├── agents/
+    │   ├── write_agent/
+    │   │   ├── fifo_seq_item.sv
+    │   │   ├── write_agent.sv
+    │   │   ├── write_driver.sv
+    │   │   ├── write_monitor.sv
+    │   │   └── write_sequencer.sv
+    │   └── read_agent/
+    │       ├── read_agent.sv
+    │       ├── read_driver.sv
+    │       ├── read_monitor.sv
+    │       └── read_sequencer.sv
+    ├── env/
+    │   ├── fifo_env.sv
+    │   ├── fifo_scoreboard.sv
+    │   └── fifo_coverage.sv
+    ├── sequences/
+    │   ├── fifo_base_seq.sv
+    │   ├── fifo_empty_seq.sv
+    │   └── fifo_full_seq.sv
+    └── tests/
+        ├── fifo_base_test.sv
+        └── fifo_full_test.sv
