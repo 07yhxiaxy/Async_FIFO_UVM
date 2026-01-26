@@ -14,7 +14,7 @@ module tb_top;
   // 2. Interface Instantiation
   fifo_if intf(w_clk, r_clk, rst_n);
 
-  // 3. DUT Instantiation
+  // 3. DUT Instantiation 
   async_fifo DUT (
     .w_clk   (intf.w_clk),
     .w_rst_n (intf.rst_n),
